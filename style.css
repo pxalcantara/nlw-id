@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100;
+}
+
+body {
+  --gray: rgba(225, 225, 230, 1);
+
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background: url(images/background.svg);
+  width: 375px;
+  height: 812px;
+}
+
+.container {
+  color: var(--gray);
+}
