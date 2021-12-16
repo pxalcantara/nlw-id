@@ -7,8 +7,8 @@ const SocialMediaProfiles = {
 }
 
 const image = document.querySelector('#userImage')
-var click_count = 0
-var key_count = 0
+let click_count = 0
+let key_count = 0
 
 function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
